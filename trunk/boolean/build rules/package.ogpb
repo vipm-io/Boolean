@@ -2,7 +2,7 @@
 
 Name=oglib_boolean
 
-Version=2.1
+Version=2.3
 
 Release=1
 
@@ -19,7 +19,7 @@ Copyright="2002 Jim Kring, Cal-Bay Systems, Inc."
 
 Distribution="OpenG Toolkit"
 
-Icon=boolean.bmp
+Icon=../source/boolean.bmp
 
 Vendor=OpenG.org
 
@@ -37,7 +37,7 @@ AutoReqProv=FALSE
 
 [Platform]
 
-Exclusive_LabVIEW_Version= >=6.0
+Exclusive_LabVIEW_Version=>=6.1
 
 Exclusive_LabVIEW_System=All
 
@@ -46,28 +46,40 @@ Exclusive_OS=All
 
 [Files]
 
-Num File Groups=2
+Num File Groups=3
 
 
 [File Group 0]
 
-Source Dir=built/boolean
+Source Dir=../built/boolean
 
-Target Dir=<user.lib>/_OpenG.lib/boolean
+Target Dir=<OpenG.lib>/boolean
 
 Replace Mode=Always
 
-Num Files=2
+Num Files=1
 
-File 0=dir.mnu
-File 1="boolean.llb/Boolean Trigger__ogtk.vi"
+File 0="boolean.llb/*"
 
 
 [File Group 1]
 
-Source Dir="Dynamic Palette MNUs"
+Source Dir="../source"
 
 Target Dir="<user.lib>/_dynamicpalette_dirs/boolfunc"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_boolean.mnu
+
+
+[File Group 2]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/OpenG"
 
 Replace Mode=Always
 
