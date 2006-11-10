@@ -1,4 +1,10 @@
--= oglib_boolean-2.1-1.ogp =-
+-= oglib_boolean-2.3-1.ogp =-
+
+
+Changes from 2.2-1 --> 2.3-1
+--------------------------------
+2006-11-09
+[LICENSE] Relicensed as BSD
 
 
 Changes from 2.0-1 --> 2.1-1
