@@ -4,7 +4,7 @@ Name=oglib_boolean
 
 Version=2.3
 
-Release=1
+Release=2
 
 
 [Description]
@@ -13,7 +13,7 @@ Description="The boolean package contains several routines for operating on Bool
 
 Summary="OpenG Boolean Tools"
 
-License=LGPL
+License=BSD
 
 Copyright="2002 Jim Kring, Cal-Bay Systems, Inc."
 
