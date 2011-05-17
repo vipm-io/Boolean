@@ -1,6 +1,6 @@
-OpenG Boolean Tools
+OpenG Boolean Library
 
-Copyright (c) 2002 Jim Kring, Cal-Bay Systems Inc.; 2010 Jonathon Green
+Copyright (c) 2002 Jim Kring, Cal-Bay Systems Inc.; 2010-2011 Jonathon Green
 
 All rights reserved.
 
