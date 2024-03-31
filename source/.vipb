@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-06 19:09:00" Modified_Date="2024-03-30 19:09:39" Creator="Jonathon Green" Comments="" ID="fc15d124f8de2b7d2ea150f1528b09cb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-06 19:09:00" Modified_Date="2024-03-30 20:26:19" Creator="Jonathon Green" Comments="" ID="9886d971a1781a9d9684179edb4ac218">
   <Library_General_Settings>
     <Package_File_Name>oglib_boolean</Package_File_Name>
-    <Library_Version>6.0.0.8</Library_Version>
+    <Library_Version>6.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
