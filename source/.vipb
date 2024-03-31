@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-06 19:09:00" Modified_Date="2024-03-30 19:09:39" Creator="Jonathon Green" Comments="" ID="fc15d124f8de2b7d2ea150f1528b09cb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-06 19:09:00" Modified_Date="2024-03-30 20:25:30" Creator="Jonathon Green" Comments="" ID="f07047dfcfa2f06b7dd59cd2d85b31fa">
   <Library_General_Settings>
     <Package_File_Name>oglib_boolean</Package_File_Name>
-    <Library_Version>6.0.0.8</Library_Version>
+    <Library_Version>6.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies/>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
+      <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -32,7 +32,14 @@
       <Copyright>Copyright 2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_boolean</URL>
-      <Release_Notes/>
+      <Release_Notes>- Requires LabVIEW 2020 or greater
+- Moved library VIs into Library (`openg_boolean.lvlib`) #9
+- Upgraded source code to LV2020 format #5
+- Marked all as Separate Compiled Code #6
+
+Kudos to contributors @Bas-vE and @jimkring for their work on this release.
+
+Important: Callers of this package will relink automatically to the new Library (`openg_boolean.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -137,9 +144,6 @@
       <Exclusions>
         <Path>images</Path>
       </Exclusions>
-      <Exclusions>
-        <Path>user docs</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -226,10 +230,10 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-            <Items_Data>
+      <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Boolean Trigger.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Boolean Trigger</NameSub_Menu_Name>
         <Short_Name>Boolean Trigger</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -238,8 +242,9 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Boolean Trigger.vi</Path>
-              </Items_Data>
-      <GUID>FC479FABD0E38DCBFC45747D50B5BE37</GUID>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5EDF33B010104AA12CE340FC290E0C9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
