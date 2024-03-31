@@ -15,9 +15,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder"/>
 		<Item Name="candidates" Type="Folder"/>
-		<Item Name="dev docs" Type="Folder">
-			<Item Name="ToDo.txt" Type="Document" URL="../dev docs/ToDo.txt"/>
-		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="examples" Type="Folder"/>
 			<Item Name="images" Type="Folder">
