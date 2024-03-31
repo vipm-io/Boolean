@@ -21,8 +21,8 @@
 				<Item Name="icon.png" Type="Document" URL="../source/images/icon.png"/>
 			</Item>
 			<Item Name="library" Type="Folder">
-				<Item Name="Boolean Trigger.vi" Type="VI" URL="../source/library/Boolean Trigger.vi"/>
 				<Item Name="VI Tree - boolean.vi" Type="VI" URL="../source/library/VI Tree - boolean.vi"/>
+				<Item Name="openg_boolean.lvlib" Type="Library" URL="../source/library/openg_boolean.lvlib"/>
 			</Item>
 			<Item Name=".vipb" Type="Document" URL="../source/.vipb"/>
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
